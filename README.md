@@ -8,8 +8,6 @@ Una api rest de productos creada para realizar la prueba front de los aspirantes
 ## Instalacion
 Si no se tiene instalado .NET descargar aqui: https://dotnet.microsoft.com/download
 
-Debe de utilizar .NET 5, no se ha migrado a la v6.
-
 En la consola de git colocar:
 
 ~~~
