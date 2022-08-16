@@ -13,7 +13,7 @@ Debe de utilizar .NET 5, no se ha migrado a la v6.
 En la consola de git colocar:
 
 ~~~
-git clone https://github.com/Nelmix-Solutions/API_e-CF.git
+https://github.com/Nelmix-Solutions/Api-PruebaFront.git
 ~~~
 
 Luego para iniciar el proyecto escribir en consola:
