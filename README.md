@@ -1,11 +1,11 @@
 # Api para prueba Front
 Una api rest de productos creada para realizar la prueba front de los aspirantes a pasantia
 
-#Dependencias
+## Dependencias
 - .Net Core
 - Entity Framework core:  Microsoft.EntityFrameworkCore.Sqlite
 
-#Instalacion
+## Instalacion
 Si no se tiene instalado .NET descargar aqui: https://dotnet.microsoft.com/download
 
 Debe de utilizar .NET 5, no se ha migrado a la v6.
@@ -30,5 +30,5 @@ Si el programa le devuelve multiples errores de falta de archivos escriba el sig
 dotnet restore
 ~~~
 
-#Autor
+## Autor
 [sheymor21](https://github.com/sheymor21)
