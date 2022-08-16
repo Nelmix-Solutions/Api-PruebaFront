@@ -2,6 +2,7 @@
 Una api rest de productos creada para realizar la prueba front de los aspirantes a pasantia
 
 ## Dependencias
+- .Net6
 - .Net Core
 - Entity Framework core:  Microsoft.EntityFrameworkCore.Sqlite
 
