@@ -68,7 +68,7 @@ app.MapDelete("/ProductId", async (int id, DBContext db) =>
     return Results.Ok("Se elimino correctamente el producto");
 });
 
-app.MapPut("/Product", async (int id, ProductDTO product, DBContext db) =>
+app.MapPut("/Product", async (int id, ProductDTO2 product, DBContext db) =>
 {
     var dbProduct = await db.Products.Where((w) => w.Id == id).FirstOrDefaultAsync();
     if (dbProduct is null)
