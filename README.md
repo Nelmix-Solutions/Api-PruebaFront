@@ -12,7 +12,7 @@ Si no se tiene instalado .NET descargar aqui: https://dotnet.microsoft.com/downl
 En la consola de git colocar:
 
 ~~~
-https://github.com/Nelmix-Solutions/Api-PruebaFront.git
+git clone https://github.com/Nelmix-Solutions/Api-PruebaFront.git
 ~~~
 
 Luego para iniciar el proyecto escribir en consola:
