@@ -4,7 +4,6 @@
 /home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Api-PruebaFront.deps.json
 /home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Api-PruebaFront.runtimeconfig.json
 /home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Api-PruebaFront.dll
-/home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/ref/Api-PruebaFront.dll
 /home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Api-PruebaFront.pdb
 /home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Humanizer.dll
 /home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
@@ -52,3 +51,5 @@
 /home/sheymor/Desktop/csharp/Api-PruebaFront/obj/Debug/net6.0/ref/Api-PruebaFront.dll
 /home/sheymor/Desktop/csharp/Api-PruebaFront/obj/Debug/net6.0/Api-PruebaFront.pdb
 /home/sheymor/Desktop/csharp/Api-PruebaFront/obj/Debug/net6.0/Api-PruebaFront.genruntimeconfig.cache
+/home/sheymor/Desktop/csharp/Api-PruebaFront/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll
+/home/sheymor/Desktop/csharp/Api-PruebaFront/obj/Debug/net6.0/refint/Api-PruebaFront.dll

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yMYA5BKT0+pvGmpwuMVEc29FOj0GzoJ/yGwsyJ4i/adm04E2Hz8R0xnlvTC2EpTNqD+SG0aPe1rpIsW6tpTblA==",
+  "dgSpecHash": "nOMbEXrJxXOynlkZvaTRd2QcjtDeazf7lVTlN/kTlJ59NlIzfA0nkPZTORBCmW9hvqZ1BXUqmbOqiTRSVlmcog==",
   "success": true,
   "projectFilePath": "/home/sheymor/Desktop/csharp/Api-PruebaFront/Api-PruebaFront.csproj",
   "expectedPackageFiles": [
     "/home/sheymor/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/sheymor/.nuget/packages/microsoft.aspnetcore.authentication.certificate/6.0.8/microsoft.aspnetcore.authentication.certificate.6.0.8.nupkg.sha512",
     "/home/sheymor/.nuget/packages/microsoft.data.sqlite.core/6.0.8/microsoft.data.sqlite.core.6.0.8.nupkg.sha512",
     "/home/sheymor/.nuget/packages/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "/home/sheymor/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.8/microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",

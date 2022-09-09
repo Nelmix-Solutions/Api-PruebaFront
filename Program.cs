@@ -1,5 +1,6 @@
 using dbContext;
 using DTO;
+using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.EntityFrameworkCore;
 using Model;
 
@@ -10,10 +11,14 @@ var conectionstring = builder.Configuration.GetConnectionString("sqlite");
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddAuthentication(CertificateAuthenticationDefaults.AuthenticationScheme).AddCertificate();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DBContext>((options) => options.UseSqlite(conectionstring));
 
 var app = builder.Build();
+
+app.UseAuthentication();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
