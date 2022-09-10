@@ -1,6 +1,5 @@
 using dbContext;
 using DTO;
-using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.EntityFrameworkCore;
 using Model;
 
@@ -8,17 +7,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var conectionstring = builder.Configuration.GetConnectionString("sqlite");
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
-builder.Services.AddAuthentication(CertificateAuthenticationDefaults.AuthenticationScheme).AddCertificate();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      { 
+                          policy.WithOrigins("http://example.com","https://localhost:7051","https://localhost:5113").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                      });
+});
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DBContext>((options) => options.UseSqlite(conectionstring));
 
 var app = builder.Build();
 
-app.UseAuthentication();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -101,6 +106,8 @@ app.MapPut("ProductStock", async (int id, int newStock, DBContext db) =>
 });
 
 app.UseHttpsRedirection();
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 

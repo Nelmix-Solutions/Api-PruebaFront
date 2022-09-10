@@ -15,25 +15,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.Certificate/6.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Memory": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll": {
-            "related": ".xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "Microsoft.Data.Sqlite.Core/6.0.8": {
         "type": "package",
         "dependencies": {
@@ -675,21 +656,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "Microsoft.AspNetCore.Authentication.Certificate/6.0.8": {
-      "sha512": "+YPoXWnVOtyLWmA67uxxI7NiBw1CfQrQK5b4Om7lUEEg9lJFKttplKNAJL3M40sPvre2rrbPzWbRr1KslRRnAQ==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.certificate/6.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.dll",
-        "lib/net6.0/Microsoft.AspNetCore.Authentication.Certificate.xml",
-        "microsoft.aspnetcore.authentication.certificate.6.0.8.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.certificate.nuspec"
       ]
     },
     "Microsoft.Data.Sqlite.Core/6.0.8": {
@@ -1462,7 +1428,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Authentication.Certificate >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.8",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -1505,10 +1470,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Certificate": {
-            "target": "Package",
-            "version": "[6.0.8, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
